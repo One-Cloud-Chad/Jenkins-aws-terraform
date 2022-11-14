@@ -1,0 +1,5 @@
+- name: This is an attempt to run a script called script.sh on a remote server
+  hosts: 3.230.145.30
+  tasks:
+  - name: Run script
+    script: ~/github/jenkins-aws-terraform/scripts/install_apache.sh
